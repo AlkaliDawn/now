@@ -1,0 +1,28 @@
+.CreamColor {
+    /* Cream */
+    color: #FFFDEC;
+
+}
+
+.LightMainColor {
+    /* Light Main */
+    color: #7CBBD7;
+}
+
+.MainColor {
+    /* Main Color */
+    color: #1E62B2;
+}
+
+.Text {
+    text-shadow: 0 4px 4px #1E252C;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    align-items: center;
+    text-align: center;
+
+}

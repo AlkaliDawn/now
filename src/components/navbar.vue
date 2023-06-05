@@ -26,7 +26,7 @@
     height: 78px;
 
     /* Cream */
-    background: #FFFDEC;
+    background: #fffef7;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -34,13 +34,13 @@
     text-decoration-line: none;
     position: relative;
     font-size: 50px;
-    right: -2.0%;
+    left: 2.0%;
     bottom: 17%;
     color: #1E62B2;
 }
 
 #navbar {
-    position: sticky;
+    position: fixed;
 }
 
 </style>

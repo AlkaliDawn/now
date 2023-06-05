@@ -3,7 +3,7 @@
   <head>
     <script>import '@/assets/main.css'</script>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -17,8 +17,14 @@
 
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app" style="display: none"></div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      window.onload = function() {
+        // When all images are loaded, show the content
+        document.getElementById('app').style.display = 'block';
+      };
+    </script>
   </body>
   <style>
     html, body {
@@ -26,6 +32,7 @@
       margin: 0;
       width: 100vw;
       height: 100vh;
+      overflow: hidden;
     }
   </style>
 </html>
